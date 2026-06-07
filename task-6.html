@@ -1,27 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <section>
-    <form>
+        <form>
+            <ul>
+                <li>
+                    <label for="uid">User ID</label>
+                    <input type="text" id="uid" name="uid" />
+                </li>
+                <li>
+                    <label for="pwd">Password</label>
+                    <input type="password" id="pwd" name="pwd" />
+                </li>
+                <li>
+                    <button>Log in</buttonf>
+                </li>0
+            </ul>
+        </form>
+    </section>
+    <section>
+        <form>
+  <fieldset>
+    <legend>Who is your favorite pony?</legend>
+    <ul>
+      <li>
+        <label for="pinkie">Pinkie Pie</label>
+      </li>
+      <li>
+        <label for="rainbow">Rainbow Dash</label>
+      </li>
+      <li>
+        <label for="twilight">Twilight Sparkle</label>
+      </li>
+    </ul>
+  </fieldset>
+  <fieldset>
+    <legend>Hotdog preferences</legend>
+    <ul>
+      <li>
+        <label for="vegan">Vegan</label>
+      </li>
+      <li>
+        <label for="onions">Onions</label>
+      </li>
+    </ul>
+  </fieldset>
+  <button>Submit</button>
+</form>
+    </section>
+    <section>
+<form>
   <ul>
     <li>
-      <label for="uid">User ID</label>
-      <input type="text" id="uid" name="uid" />
+      <label for="food">Pick your favorite food:</label>
+      <select name="food" id="food">
+        <optgroup label="mains">
+          <option>Salad</option>
+          <option>Curry</option>
+          <option>Pizza</option>
+          <option>Fajitas</option>
+        </optgroup>
+        <optgroup label="snacks">
+          <option>Biscuits</option>
+          <option>Crisps</option>
+          <option>Fruit</option>
+          <option>Breadsticks</option>
+        </optgroup>
+      </select>
     </li>
     <li>
-      <label for="pwd">Password</label>
-      <input type="password" id="pwd" name="pwd" />
-    </li>
-    <li>
-      <button>Log in</button>
+      <button>Submit choice</button>
     </li>
   </ul>
 </form>
     </section>
 </body>
+
 </html>
